@@ -1,0 +1,15 @@
+package lpa2;
+import java.util.Scanner;
+public class RealMadrid {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		int nome = 0;
+		
+		while (nome <= 20) {
+			nome ++; 
+			System.out.println("Eu sou um YODA em JAVA!");
+			}
+		}
+	}
