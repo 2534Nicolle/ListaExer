@@ -1,0 +1,22 @@
+package lpa2;
+import java.util.Scanner;
+public class AtleticoGOINIENSE {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+	
+		int soma=0;
+		int n = 1;
+		int valor=0;
+		
+		
+		while (n <=10) {
+			System.out.println("Informe 10 números");
+			valor = ler.nextInt();
+			n++;
+			soma=soma+valor;
+		}
+		System.out.println("A soma dos números é de: " + soma);
+	}
+
+}
