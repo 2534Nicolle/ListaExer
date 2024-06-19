@@ -1,0 +1,39 @@
+package lpa2;
+
+import java.util.Scanner;
+
+public class Numbers {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+
+		int n = 0;
+        int u = 0;
+        int m = 0;
+        int num = 0;
+
+       
+        while (num < 20) {
+            System.out.println("Digite o número " + (num + 1) + ":");
+            int numero = ler.nextInt();
+
+            
+            if (numero >= 0 && numero <= 100) {
+                n++;
+            } else if (numero >= 101 && numero <= 200) {
+                u++;
+            } else if (numero > 200) {
+                m++;
+            }
+
+            num++;
+        }
+
+        
+        System.out.println("Números entre 0 e 100: " + n);
+        System.out.println("Números entre 101 e 200: " + u);
+        System.out.println("Números maiores que 200: " + m);
+
+        ler.close();
+    }
+}
