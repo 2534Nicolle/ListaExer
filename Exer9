@@ -1,0 +1,25 @@
+package lpa2;
+import java.util.Scanner;
+public class Emotion {
+
+	public static void main(String[] args) {
+		
+        Scanner ler = new Scanner(System.in);
+		
+		int n = 1;
+		int num=0;
+		int maior=0;
+		
+		while (n <=20) {
+			System.out.println("Informe 20 números:");
+			num = ler.nextInt();
+			n++;
+		   if (num>8) {
+			   maior++;
+		   }
+			
+		}
+		System.out.println("A quantidade de números maiores que 8 são: " + maior);
+	}
+
+}
