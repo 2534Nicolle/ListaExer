@@ -7,7 +7,6 @@ public class Pekka {
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
 		
-		int soma=0;
 		int n = 1;
 		int idade=0;
 		int maior=0;
